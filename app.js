@@ -75,9 +75,3 @@ function progressInterva(){
 
 
 
-
-    audio.onended = function() {
-      window.location.href = 'https://raw.githubusercontent.com/lechinguyen1995/MyWebsite/main/love/love.html';
-    };
-  });
-});
