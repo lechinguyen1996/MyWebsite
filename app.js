@@ -71,3 +71,22 @@ function progressInterva(){
         heartBox.style.left = heartLeft + '%'
     }
 }
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var audio = document.getElementById('audioElement');
+  var playButton = document.getElementById('playButton');
+
+  playButton.addEventListener('click', function() {
+    // Chạy âm thanh khi nút được click
+    audio.play();
+
+    // Chuyển hướng tới love.html sau khi âm thanh đã hoàn thành
+    audio.onended = function() {
+      window.location.href = 'https://raw.githubusercontent.com/lechinguyen1995/MyWebsite/main/love/love.html';
+    };
+  });
+});
