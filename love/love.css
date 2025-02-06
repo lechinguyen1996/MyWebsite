@@ -663,15 +663,26 @@ body{
     padding: 0px 10px;
     margin-top: 10px;
     font-family: 'Dancing Script', cursive;*/
-    font-size: 19px; /* Kích thước chữ */
+    /*font-size: 19px; 
     text-align: center;
-    padding: 10px 20px; /* Tăng padding để có thêm không gian */
+    padding: 10px 20px; 
     margin-top: 10px;
     font-family: 'Dancing Script', cursive;
-    width: 100%; /* Đảm bảo chiếm hết chiều rộng */
-    min-height: 150px; /* Tăng chiều cao tối thiểu */
-    word-wrap: break-word; /* Đảm bảo chữ xuống dòng nếu quá dài */
-    overflow: auto; /* Thêm thanh cuộn nếu nội dung quá dài */
+    width: 100%; 
+    min-height: 150px; 
+    word-wrap: break-word; 
+    overflow: auto;*/
+    font-size: 19px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    height: auto; /* Chiều cao tự động mở rộng */
+    word-wrap: break-word;
+    overflow: visible; /* Đảm bảo hiển thị nội dung */
 
 }
 .fa-xmark{
