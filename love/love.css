@@ -663,7 +663,7 @@ body{
     padding: 0px 10px;
     margin-top: 10px;
     font-family: 'Dancing Script', cursive;*/
-    /*font-size: 19px; 
+    font-size: 19px; 
     text-align: center;
     padding: 10px 20px; 
     margin-top: 10px;
@@ -671,19 +671,8 @@ body{
     width: 100%; 
     min-height: 150px; 
     word-wrap: break-word; 
-    overflow: auto;*/
-    font-size: 19px;
-    text-align: center;
-    padding: 10px 20px;
-    margin-top: 10px;
-    font-family: 'Dancing Script', cursive;
-    width: 100%;
-    max-width: 100%;
-    min-height: 150px;
-    height: auto; /* Chiều cao tự động mở rộng */
-    word-wrap: break-word;
-    overflow: visible; /* Đảm bảo hiển thị nội dung */
-
+    overflow: auto;
+   
 }
 .fa-xmark{
     position: absolute;
